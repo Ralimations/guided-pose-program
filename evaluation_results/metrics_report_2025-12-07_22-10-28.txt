@@ -1,0 +1,48 @@
+POSE ESTIMATION EVALUATION REPORT
+=================================
+Date: 2025-12-07_22-10-28
+Total Images: 26
+Overall Accuracy: 0.6923
+
+Detailed Classification Report:
+                      precision    recall  f1-score   support
+
+           arm_raise       1.00      1.00      1.00         2
+      leg_raise_left       0.00      0.00      0.00         1
+     leg_raise_right       0.00      0.00      0.00         1
+          lunge_left       0.00      0.00      0.00         1
+         lunge_right       0.00      0.00      0.00         1
+   side_stretch_left       0.00      0.00      0.00         1
+  side_stretch_right       0.00      0.00      0.00         1
+ sit_on_the_air_left       0.67      1.00      0.80         2
+sit_on_the_air_right       1.00      1.00      1.00         2
+               start       0.67      1.00      0.80         2
+          table_left       1.00      1.00      1.00         2
+         table_right       0.67      1.00      0.80         2
+ toe_touch_hang_left       1.00      1.00      1.00         4
+toe_touch_hang_right       1.00      1.00      1.00         2
+        warrior_left       0.00      0.00      0.00         1
+       warrior_right       0.00      0.00      0.00         1
+
+            accuracy                           0.69        26
+           macro avg       0.44      0.50      0.46        26
+        weighted avg       0.62      0.69      0.65        26
+
+
+Confusion Matrix (Raw):
+[[2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+ [0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1]
+ [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0]]

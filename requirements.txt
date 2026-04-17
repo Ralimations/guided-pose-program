@@ -1,0 +1,8 @@
+numpy
+opencv-python
+tensorflow
+matplotlib
+seaborn
+scikit-learn
+gTTS
+pygame
