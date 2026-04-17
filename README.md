@@ -15,6 +15,16 @@ The project uses a pose-estimation model to compare a user's live movement again
 - Evaluation and estimate generation utilities
 - Windows packaging helper scripts
 
+## Preview
+
+### Sample Pose Estimate
+
+<img src="./model_estimates/arm_raise/ESTIMATE_photo_2025-11-28_14-11-25.jpg" alt="Sample pose estimate output for arm raise" width="420" />
+
+### Evaluation Output
+
+<img src="./evaluation_results/confusion_matrix_2025-12-07_22-10-28.png" alt="Guided Pose Program confusion matrix" width="520" />
+
 ## Project Structure
 
 - `main_v3_finalfix.py`: latest main application entry point
